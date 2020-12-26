@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Task1</title>
+</head>
+<body>
+<form method="get">
+<table align="center">
+<tr><td>Name of the Student</td><td><input type="text" name="name"><br></td></tr>
+<tr><td>Regd no</td><td><input type="text" name="reg"><br></td></tr>
+<tr><td>Emai ID</td><td><input type="text" name="Email"><br></td></tr>
+<tr><td>Favourite game</td><td><input type="checkbox" name="game1" value="cricket">
+<lable for="game1"> Cricket</label><br></td><td><input type="checkbox" name="game2" value="Football">
+<lable for="game2"> Football</label></td><td><input type="checkbox" name="game3" value="chess">
+<lable for="game3"> chess</label></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="gender" value="male"><lable for="male">Male</label><br></td><td><input type="radio" name="gender" value="Female"><lable for="male">Female</label><br></td></tr>
+<tr><td>Favourite subject</td><td>
+<select name="subject" id="subjects">
+  <option value="C">C</option>
+  <option value="C++">C++</option>
+  <option value="Java">Java</option>
+  <option value="python">Python</option>
+</select></td></tr>
+<tr><td>Address</td><td><input type="text"
+       cols="40" 
+       rows="5" 
+       style="width:200px; height:50px;" 
+       name="Text1" 
+       id="Text1" 
+       value="" /><br></td></tr>
+<tr><td><input type="submit" value="Register"><br></td></tr>
+
+</body>
+</html>
